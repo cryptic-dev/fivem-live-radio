@@ -30,6 +30,5 @@ supersede_radio "RADIO_04_PUNK" { url = "http://radio-algerienne.com/radio/8020/
 
 
 client_scripts {
-	"data.js",
 	"client.js"
 }
