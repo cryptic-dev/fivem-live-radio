@@ -5,12 +5,17 @@ I Found an old source in LUA for this addon and thought it was cool so I rewrote
 ## Features
 
 - Can play AAC/OGG Streams or playlists
-- Files/Streams are hosted online can be changed dynamically so the client does't need to download anything
+- Files/Streams are hosted online and can be changed dynamically so the client does't need to download anything
 - This script is commpletely server-side it won't put any stress on the server whatsoever
 
 ## Limitations
 
 - You -CANNOT- user HTTPS streams as fivem only loads HTTP urls (no client certificate)
+
+## Note
+
+- Don't use high-bandwidth streams (128kb max is preferred) as not to stress clients with poor internet connections
+- A delay of (1-5s) can occur when changing channels depedning on the clients internet speed or the streams condition
 
 ## How to use
 
