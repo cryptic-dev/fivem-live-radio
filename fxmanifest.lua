@@ -7,10 +7,10 @@ description 'live radio from online streams or playlists'
 version '1.0.0'
 
 -- Example custom radios
-supersede_radio "RADIO_01_CLASS_ROCK" { url = "http://elbahdja.ice.infomaniak.ch/elbahdja-32.aac", volume = 0.2 } --alger
-supersede_radio "RADIO_02_POP" { url = "http://jil-fm.ice.infomaniak.ch/jilfm.aac", volume = 0.2 } --jilfm
-supersede_radio "RADIO_03_HIPHOP_NEW" { url = "http://setif.ice.infomaniak.ch/19.aac", volume = 0.2 } --setif
-supersede_radio "RADIO_04_PUNK" { url = "http://radio-algerienne.com/radio/8020/raina.aac", volume = 0.2 } --rai
+supersede_radio "RADIO_01_CLASS_ROCK" { url = "https://elbahdja.ice.infomaniak.ch/elbahdja-32.aac", volume = 0.2 } --alger
+supersede_radio "RADIO_02_POP" { url = "https://jil-fm.ice.infomaniak.ch/jilfm.aac", volume = 0.2 } --jilfm
+supersede_radio "RADIO_03_HIPHOP_NEW" { url = "https://setif.ice.infomaniak.ch/19.aac", volume = 0.2 } --setif
+supersede_radio "RADIO_04_PUNK" { url = "https://radio-algerienne.com/radio/8020/raina.aac", volume = 0.2 } --rai
 
 --aditional radios (replace the url with the stream url)
 
