@@ -19,13 +19,18 @@ I Found an old source in LUA for this addon and thought it was cool so I rewrote
 
 ## How to use
 
-Remove the comments of default radios in `fxmanifest.lua` and change the replaceme text inside the url to whatever stream you like.
+- Dwonload [files](https://github.com/cryptic-dev/fivem-live-radio/releases/download/1.0.0/fivem-live-radio.zip/)
+- Extract them into a folder named radio (for conveniece) inside your resources directory
+- Remove the comments of default radios in `fxmanifest.lua` and change the replaceme text inside the url to whatever stream you like.
 
 example:
 
 ```lua
 supersede_radio "[ORIGINAL_RADIO_NAME]" { url = "[RADIO URL]", volume = 0.5, name = "[NEW RADIO NAME]" }
 ```
+
+- Register the addon on your `'server.cfg'` file by using ensure radio
+- If you dont want to restart your server use `refresh` then `start radio` in your fivem console while server is running
 
 ## What I intend to do next
 
