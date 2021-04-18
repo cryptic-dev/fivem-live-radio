@@ -1,4 +1,10 @@
-game "GTA5"
+fx_version 'cerulean'
+
+game 'gta5'
+
+author 'cryptic-dev'
+description 'live radio from online streams or playlists'
+version '1.0.0'
 
 -- Example custom radios
 supersede_radio "RADIO_01_CLASS_ROCK" { url = "http://elbahdja.ice.infomaniak.ch/elbahdja-32.aac", volume = 0.2 } --alger
