@@ -10,7 +10,7 @@ I Found an old source in LUA for this addon and thought it was cool so I rewrote
 
 ## Limitations
 
-- ~~ You -CANNOT- user HTTPS streams as fivem only loads HTTP urls (no client certificate) ~~ https is now supported error was due to mixed content
+- ~~You -CANNOT- user HTTPS streams as fivem only loads HTTP urls (no client certificate)~~ https is now supported error was due to mixed content
 
 ## Note
 
