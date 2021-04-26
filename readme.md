@@ -6,7 +6,7 @@ I Found an old source in LUA for this addon and thought it was cool so I rewrote
 
 - Can play AAC/OGG Streams or playlists
 - Files/Streams are hosted online and can be changed dynamically so the client does't need to download anything
-- This script is commpletely server-side it won't put any stress on the server whatsoever
+- This script is commpletely client-side it won't put any stress on the server whatsoever
 
 ## Limitations
 
